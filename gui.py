@@ -42,6 +42,7 @@ def dibujar(forma,angulo):
 	if angulo=='':
 		Maestro.angulo=15
 	if angulo=="91179":
+		# Easter Egg
 		ax.clear()
 		for i in range(95,180):
 			Maestro.angulo=i
@@ -60,6 +61,16 @@ def dibujar(forma,angulo):
 		ax.set_xlabel("Polígono de "+str(int(Maestro.numero_de_triangulos))+" lados.")
 	else:
 		ax.set_xlabel(str(int(Maestro.numero_de_triangulos))+" triángulos.")
+	#import pyperclip
+	#text=""
+	#for i in Maestro.puntos_en_el_grafico:
+	#	print(i[0][0],"\t",i[0][1],"\t\r\n",i[1][0],"\t",i[1][1],"\t\r\n")
+	#	text=text+str(i[0][0]).replace(".",",")+"\t"+str(i[0][1]).replace(".",",")+"\t"+str(i[1][0]).replace(".",",")+"\t"+str(i[1][1]).replace(".",",")+"\t\r\n"
+	#pyperclip.copy(text)
+	# Pasar datos a tabla x1, x2, y1, y2. Se almacenan en su portapapeles
+
+
+
 	for i in Maestro.puntos_en_el_grafico:
 		ax.plot(i[0],i[1])
 		line.draw()
