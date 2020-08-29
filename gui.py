@@ -14,7 +14,7 @@ import threading
 ##################################
 # CODED BY 4nth0nySLT            #
 # github.com/4nth0nySLT          #
-# t.me/Anth0nySLT                #
+# t.me/AnthonySLT                #
 #            ECUADOR             #
 ##################################
 """
@@ -168,12 +168,12 @@ try:
 	angulo.place(x=60,y=medio-45,width=120,height=23)
 	angulo.bind("<Key>", lambda e: solonumeros(e))
 
-	label_creditos=Label(window,text="####################\n# CODED BY 4nth0nySLT\n# github.com/4nth0nySLT\n# t.me/Anth0nySLT\n#            ECUADOR                     \n####################")
+	label_creditos=Label(window,text="####################\n# CODED BY 4nth0nySLT\n# github.com/4nth0nySLT\n# t.me/AnthonySLT\n#            ECUADOR                     \n####################")
 	label_creditos.place(x=10,y=medio+40)
 
 	cuadro = Frame(window)
 	cuadro.place(x=230,y=20,width=460,height=460)
-	debug_creditos=Label(cuadro,text="####################\n# CODED BY 4nth0nySLT\n# github.com/4nth0nySLT\n# t.me/Anth0nySLT\n#            ECUADOR                     \n####################")
+	debug_creditos=Label(cuadro,text="####################\n# CODED BY 4nth0nySLT\n# github.com/4nth0nySLT\n# t.me/AnthonySLT\n#            ECUADOR                     \n####################")
 	
 	figure = plt.Figure(figsize=(5,6), dpi=100)
 	ax = figure.add_subplot(111)
